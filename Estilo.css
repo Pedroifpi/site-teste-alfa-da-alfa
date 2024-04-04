@@ -1,6 +1,4 @@
-/* Estilo.css */
 
-/* Reset CSS */
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +17,7 @@ body {
     padding: 0 20px;
 }
 
-/* Estilo para o cabeçalho */
+
 header {
     background-color: #333;
     color: white;
@@ -55,26 +53,25 @@ header nav ul li a:hover {
     color: #ffcc00;
 }
 
-/* Estilo para o conteúdo principal */
+
 main {
     padding: 20px 0;
 }
 
-/* Estilo para cada seção */
+
 .section {
     padding: 40px 0;
 }
 
-/* Estilo para cada meme */
+
 .meme {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    margin-bottom: 20px; /* Adiciona margem entre os memes */
+    margin-bottom: 20px; 
 }
 
-/* Estilo para as imagens dos memes */
 .meme img {
     max-width: 100%;
     height: auto;
@@ -89,7 +86,7 @@ main {
     line-height: 1.6;
 }
 
-/* Estilo para o rodapé */
+
 footer {
     background-color: #333;
     color: white;
@@ -97,7 +94,6 @@ footer {
     text-align: center;
 }
 
-/* Media queries para tornar o site responsivo */
 @media screen and (max-width: 768px) {
     .meme {
         width: 100%;
